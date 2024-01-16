@@ -1,0 +1,81 @@
+/* goggle fonts mulish*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+/*common shared style*/
+*{
+    font-family: 'Mulish', sans-serif;
+
+}
+.btn-primary{
+    color: #FFF;
+font-size: 1.25rem;
+font-weight: 800;
+border-radius: 8px;
+background-color: #FF5400;
+padding: 10px 35px;
+border: none;
+}
+
+
+
+
+
+
+
+
+/*main section style*/
+.first{
+    display: flex;
+    
+    
+    
+}
+.first1{
+    margin:100px 35px 80px 135px;
+    
+}
+.text1{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+
+}
+.text2{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+}
+
+.first-image img{
+    border-radius: 16px;
+    margin: 100px 135px 80px 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive mobile device*/
+@media screen and (max-width:576px) {
+    .first{
+        flex-direction: column;
+    }
+    .first-image{
+        width: 100%;
+    }
+    
+}
