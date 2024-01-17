@@ -179,12 +179,15 @@ margin: 0 auto;
     text-align: center;
 }
 .card{
-    border: 1px solid black;
-
+    
+    width: 1450px;
 }
 .card-start{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    margin-top: 30px;
+    width: 444x;
+   
 }
 .card img{
     width:90px;
@@ -195,7 +198,8 @@ margin: 0 auto;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 padding: 20px;
-height: 284px;
+margin-right: 10px;
+margin-left: 50px;
 
 
 }
@@ -204,17 +208,21 @@ height: 284px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
 padding: 20px;
+margin-right: 10px;
 
-height: 284px;
+
 
 }
 .card-3{
     border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
-margin: 0 auto;
-padding: 20px;
-height: 284px;
+ align-items: center;
+ padding: 20px;
+ margin-top: 50px;
+ border: 1px solid orange;
+ width: 490px;
+ margin: 0 auto;
 
 }
 
@@ -224,19 +232,69 @@ height: 284px;
 .text-six{
     background: #FFF;
     width: 1440px;
-height: 6940px;
 }
 
 .six{
     display: flex;
     margin-top: 40px;
+    border: 1px solid black;
 }
 
 
 
+/*own page style*/
 
+.own-page{
+    display: flex;
+}
+.own-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.own-image img{
+    width: 100%;
+   margin-right: 90px;
+}
+.desnition{
+    color: #FF5400;
+    font-size: 1.5rem;
+}
+.own-description{
+    margin: 30px 45px 30px 90px ;
+}
+/*last page  style*/
+.last{
+    border: 1px solid salmon;
+}
 
+.last-content{
+    display: flex;
+    justify-content: space-between;
+} 
+.last-form{
 
+    width: 445px;
+    margin: 30px 50px 30px 50px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    
+    
+ 
+}
+.login-form input{
+    margin-top: 20px;
+    border-radius: 8px;
+ font-size: 1.2em;
+
+}
 
 
 
@@ -245,7 +303,7 @@ height: 6940px;
 
 /*responsive mobile device*/
 @media screen and (max-width:576px) {
-    .first , .form, .img-leval-1, .img-leval-2,.img-leval-3{
+    .first , .form, .img-leval-1, .img-leval-2,.img-leval-3 ,.own-page ,.card-start{
         flex-direction: column;
     }
     .first-image{
@@ -260,5 +318,11 @@ height: 6940px;
     }
     .form{
         align-items: center;
+    }
+    .own-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-3{
+        width: 100%;
     }
 }
