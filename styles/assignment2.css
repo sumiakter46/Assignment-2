@@ -295,9 +295,40 @@ border: 1px solid #FF5400;
  font-size: 1.2em;
 
 }
+/*footer style*/
+.footer-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-container img{
+    margin-right: 20px;
+    width: 40px;
+}
+.footer-text{
+    color: #5A5A5D;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin: 10px 243px;
 
-
-
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon img{
+    width: 30px;
+}
+.last-text{
+    color: #131318;
+font-size: 1rem;
+font-weight: 300;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 70px;
+}
 
 
 
