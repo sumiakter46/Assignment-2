@@ -49,7 +49,8 @@ nav{
     display: flex;
  } 
  .nav-container img{
-    width:70px;
+    width:40px;
+    margin-right: 20px;
  }
 .nav-items-container >ul{
     display: flex;
@@ -225,6 +226,12 @@ background: rgba(233, 68, 68, 0.05);
  margin: 0 auto;
 
 }
+/*four section style*/
+.four-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
@@ -232,12 +239,13 @@ background: rgba(233, 68, 68, 0.05);
 .text-six{
     background: #FFF;
     width: 1440px;
+    padding: 30px;
 }
 
 .six{
     display: flex;
     margin-top: 40px;
-    border: 1px solid black;
+   
 }
 
 
@@ -246,6 +254,7 @@ background: rgba(233, 68, 68, 0.05);
 
 .own-page{
     display: flex;
+    margin-top: 30px;
 }
 .own-image{
     display: grid;
@@ -295,6 +304,11 @@ border: 1px solid #FF5400;
  font-size: 1.2em;
 
 }
+
+.last-img2{
+    position: relative;
+    top: -90px;
+}
 /*footer style*/
 .footer-container{
     display: flex;
@@ -334,8 +348,11 @@ margin-top: 70px;
 
 /*responsive mobile device*/
 @media screen and (max-width:576px) {
-    .first , .form, .img-leval-1, .img-leval-2,.img-leval-3 ,.own-page ,.card-start{
+    .first , .form, .img-leval-1, .img-leval-2,.img-leval-3 ,.own-page ,.card-start ,.footer-container ,.six ,.last-content{
         flex-direction: column;
+    }
+    .banner{
+        background-image: 100%;
     }
     .first-image{
         width: 100%;
